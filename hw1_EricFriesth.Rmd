@@ -9,4 +9,21 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# 
+#Understanding Concepts
+1. I consider data science to be the exploration and analysis of structured and unstructured data which can become more beneficial and effective through things like machine learning and AI. My first encounter with this concept was in 8th grade where we watched IBM's robot Watson take on some of Jeopardy's best contestants and win! This is an incredible video to watch as I had never seen a whole lot about AI at the time and was astonished at how fast Watson could pull even the most intricate questions the answers they needed. This was my first instance of my interest in machine learning and AI being used for knowledge rather than to scare people. Here is a link to the full cover story of the Jeopardy event specifically (however Watson has done a lot more since then that everyone should check out): https://www.techrepublic.com/article/ibm-watson-the-inside-story-of-how-the-jeopardy-winning-supercomputer-was-born-and-what-it-wants-to-do-next/ 
+
+2. In the commandline program we use called, "Git," we leave notes on changes we've made on files we're working on and sometimes mistakes happen with the notes and you may want to change them on the spot. These notes are called "commits" and can be editted or rewritten by using:
+$ git commit --amend -m "Whatever your new note/commit is"
+
+3. In my DS301 class we use the Desktop version of Github for pulling/updating files. You can download this separate application and give it your Github information and from there you will be able to access and fetch files from there similar to how our DS202 class uses Git Bash.
+
+4. I believe many Data Scientists and Statisticians use R because if its intuitiveness for its users, even as a new user of R, I am able to quickly pick up the information on its features and functionality.
++ R is very intuitive in its functions and naming.
++ R can easily pull and share files through 3rd party applications such as Github.
++ R has a lot of built in functions for creating data visualizations which is essential for helping non-technical peers understand your data/insight.
+
+
+
+
+
+
