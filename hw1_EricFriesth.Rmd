@@ -77,24 +77,19 @@ print(vec200)
 # vec200 is a vector containing values starting from 1 and going up by 1 until it reaches 200, even indices are replaced with '0' and the odd with '1'
 ```
 
+8.
+i. which.max has 1 argument (x) that is a vector being of type numeric, logical, integer, or double.
 
+ii. this function returns the index of the highest value in the vector provided.
 
+iii. 
+```{r}
+x = c(3, -1, 4, 2.5)
+which.max(x)
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+iv. In the event of a tie, which.max returns the index of the first one.
+```{r}
+x = c(3, 4, 4, 2.5)
+which.max(x)
+```
