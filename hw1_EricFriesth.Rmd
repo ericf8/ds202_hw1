@@ -66,6 +66,16 @@ print(cel)
 ```
 
 7. 
+```{r}
+
+vec200 = c(1:200)
+vec200[vec200 %% 2 == 0] = 0
+vec200[vec200 %% 2 != 0] = 1
+
+print(vec200)
+
+# vec200 is a vector containing values starting from 1 and going up by 1 until it reaches 200, even indices are replaced with '0' and the odd with '1'
+```
 
 
 
