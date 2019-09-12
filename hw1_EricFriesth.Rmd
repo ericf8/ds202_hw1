@@ -9,6 +9,8 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+Worked on this with my partner, Aashwin Lamsal
+
 #Understanding Concepts
 1. I consider data science to be the exploration and analysis of structured and unstructured data which can become more beneficial and effective through things like machine learning and AI. My first encounter with this concept was in 8th grade where we watched IBM's robot Watson take on some of Jeopardy's best contestants and win! This is an incredible video to watch as I had never seen a whole lot about AI at the time and was astonished at how fast Watson could pull even the most intricate questions the answers they needed. This was my first instance of my interest in machine learning and AI being used for knowledge rather than to scare people. Here is a link to the full cover story of the Jeopardy event specifically (however Watson has done a lot more since then that everyone should check out): https://www.techrepublic.com/article/ibm-watson-the-inside-story-of-how-the-jeopardy-winning-supercomputer-was-born-and-what-it-wants-to-do-next/ 
 
@@ -21,6 +23,50 @@ $ git commit --amend -m "Whatever your new note/commit is"
 + R is very intuitive in its functions and naming.
 + R can easily pull and share files through 3rd party applications such as Github.
 + R has a lot of built in functions for creating data visualizations which is essential for helping non-technical peers understand your data/insight.
+
+#R Basics
+5. 
+```{r}
+x = c(-1.308, 1.233,-1.210, -1.159, -0.590, -0.031, 0.479, 0.423, 1.483, 0.174)
+# You could either use var() or make your own function
+ my_var = function(x){
+   avg = mean(x)
+   differences = (x - avg)
+   n = length(x)
+   SqrDifferences = differences^2
+   sum_SqrDifferences = sum(SqrDifferences)
+   est = 1/(n-1)
+   estVar = est * sum_SqrDifferences
+   return(estVar)
+ }
+ my_var(x)
+#created a sample variance calculator by creating the individual pieces of the equation rather than using var()
+
+```
+6. 
+```{r}
+high = 15
+low = -10
+(f - 32) * 5/9
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
