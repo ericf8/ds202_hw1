@@ -28,7 +28,9 @@ $ git commit --amend -m "Whatever your new note/commit is"
 5. 
 ```{r}
 x = c(-1.308, 1.233,-1.210, -1.159, -0.590, -0.031, 0.479, 0.423, 1.483, 0.174)
+
 # You could either use var() or make your own function
+
  my_var = function(x){
    avg = mean(x)
    differences = (x - avg)
@@ -39,18 +41,31 @@ x = c(-1.308, 1.233,-1.210, -1.159, -0.590, -0.031, 0.479, 0.423, 1.483, 0.174)
    estVar = est * sum_SqrDifferences
    return(estVar)
  }
+ 
  my_var(x)
+ 
 #created a sample variance calculator by creating the individual pieces of the equation rather than using var()
 
 ```
 6. 
 ```{r}
-high = 15
-low = -10
-(f - 32) * 5/9
+f_to_c = function(x){
+  fahrenheit = x
+  high = 15
+  low = -10
+  celsius = (fahrenheit - 32) * 5/9
+  celsius
+}
+
+cel = c(f_to_c(high), f_to_c(low))
+
+print(cel)
+
+# This is a function for taking in high and low values and inserting those converted values into a vector called, "cel"
 
 ```
 
+7. 
 
 
 
